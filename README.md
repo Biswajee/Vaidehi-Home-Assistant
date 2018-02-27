@@ -17,3 +17,8 @@ The Python Script used here uses Flask(web microframework).
 Starting with the project requires sound knowledge of Flask.
 
 1. run.py - This is the main file of the application. Currently consists of Weather API to return JSON response to Chatfuel.
+
+
+#### Test the Messenger Bot 
+
+	 m.me/1983594411899248
