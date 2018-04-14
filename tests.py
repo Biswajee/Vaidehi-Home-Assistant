@@ -19,4 +19,4 @@ def function(r0, r1, r2):
 
 
 if __name__ == '__main__':
-    function(r0, r1, r2)
+    function(r0, r1)
