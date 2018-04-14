@@ -1,7 +1,7 @@
 # Vaidehi-Home-Assistant
 The bot works in Chatfuel with the API integrations in this bot done using Python.
 
-
+#### Travis Status: [![Build Status](https://travis-ci.org/Biswajee/Vaidehi-Home-Assistant.svg?branch=master)](https://travis-ci.org/Biswajee/Vaidehi-Home-Assistant)
 
 ## Installation
 
