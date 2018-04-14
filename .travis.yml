@@ -1,0 +1,22 @@
+language: python
+python:
+  # We don't actually use the Travis Python, but this keeps it organized.
+  - "3.5"
+  - "3.6"
+
+branches:
+  - master
+
+notifications:
+  email: false
+
+install:
+  - pip install -r requirements.txt
+
+
+before_script:
+  - nohup python script.py &
+  - sleep 1 # give it some time to start
+
+script:
+  - python tests.py
