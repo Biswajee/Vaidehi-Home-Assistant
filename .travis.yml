@@ -15,7 +15,7 @@ install:
 
 
 before_script:
-  - nohup python script.py &
+  - nohup python run.py &
   - sleep 1 # give it some time to start
 
 script:
