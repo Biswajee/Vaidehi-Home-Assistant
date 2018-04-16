@@ -25,4 +25,4 @@ Starting with the project requires sound knowledge of Flask.
 
 #### Test the Heroku Deployed Version
 
-https://vaidehi-home-assistant.herokuapp.com/weather?latitude=<laitude>&longitude=<longitude>
+https://vaidehi-home-assistant.herokuapp.com/weather?latitude=[laitude]&longitude=[longitude]
