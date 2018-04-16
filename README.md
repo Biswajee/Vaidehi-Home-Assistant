@@ -22,3 +22,7 @@ Starting with the project requires sound knowledge of Flask.
 #### Test the Messenger Bot 
 
 	 m.me/1983594411899248
+
+#### Test the Heroku Deployed Version
+
+https://vaidehi-home-assistant.herokuapp.com/weather?latitude=<laitude>&longitude=<longitude>
