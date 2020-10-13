@@ -4,20 +4,10 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-stages:
-- stage: Build
-  jobs:
-  - job: BuildJob
-    steps:
-    - script: python --version
-    - script: pip install -r requirements.txt
-    displayName: 'installs required dependencies'
-  - job: StartServer
-    steps:
-      - script: |
-          nohup python run.py &
+steps:
+  - script: python3 --version
+  - script: pip3 install -r requirements.txt
+  - script: |
+          nohup python3 run.py &
           sleep 1
-  - job: TestJob
-    steps:
-    - script: python tests.py
-    displayName: 'Run a multi-line script'
+  - script: python3 tests.py
